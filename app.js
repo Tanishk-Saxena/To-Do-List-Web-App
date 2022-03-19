@@ -10,7 +10,7 @@ mongoose.connect("mongodb+srv://tanishk:tanishk18@cluster0.md5f7.mongodb.net/tod
 const itemsSchema = new mongoose.Schema({
   name: {
     type: String,
-    required: [true, "Don't enter empty values"]
+    required: [true, "Don't enter empty values."]
   }
 });
 
